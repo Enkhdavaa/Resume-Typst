@@ -8,26 +8,52 @@
     (name: "github", link: "https://github.com/enkhdavaa", display: "@enkhdavaa"),
     (name: "linkedin", link: "https://www.linkedin.com/in/enkhdavaa-batlkhagva/", display: "Enkhdavaa Batlkhagva"),
   ),
-  tagline: [Software Engineer. #lorem(10)],
+  tagline: [I have five years of experience in software development. In this period, I gained in-depth knowledge in scrum/agile, software design, digital twin, and model based testing. Moreover, I consistently improves my technical skills in the area of web and game development, and machine learning.],
   [
     == Experience
 
-    === Junior Software Engineer \
-    _Company Two_\
-    #term[Jul 2021 --- Jul 2022][London, UK]
+    === Software Designer \
+    _ICT Netherlands B.V._\
+    #term[Jan 2021 --- Present][Eindhoven, NL]
 
-    - #lorem(15)
-    - #lorem(10)
-    - #lorem(24)
+    - Designed and developed 3D virtual hardware simulator for testing the control software of a factory.
+    - Created an infrastructure strategy for using Model-Based-Testing at Thermo Fisher Scientific.
+    - Created state transition models for different subsystems for Thermo Fisher Scientific.
 
-    === Junior Systems Administrator \
-    _Company 1_\
-    #term[Oct 2019 --- Jul 2021][Bournemouth, UK]
+    ==== .NET C\#, Unity 3D, C++ 
 
-    - #lorem(20)
-    - #lorem(10)
+    === Software Designer Trainee \
+    _Thermo Fisher Scientific_\
+    #term[Jan 2020 --- Oct 2020][Eindhoven, NL]
 
-    References available on request
+    - Designed and developed a proof of concept for 3D virtual hardware simulator tool. The tool is for testing software using Unity3D game engine. 
+    ==== .NET C\#, Unity 3D, Matlab 
+
+    === Embedded Software Engineer \
+    _Tavan Bogd Management_\
+    #term[Mar 2018 --- Sep 2018][Ulaanbaatar, MNG]
+
+    - Contributed to implementing contactlesss payment using wireless technologies (Bluetooth and WIFI).
+    - Created a windows desktop application for exchanged data with Oracle DB. 
+
+    ==== .NET C\#, C
+
+    === Embedded Software Intern\
+    _Innovation for High Performance Microelectronics LLC_\
+    #term[Jan 2017 --- Mar 2017][Frankfurt (Oder), DE]
+
+    - Implemented firmware drivers for a platform that measures a power consumption with high precision.
+
+    ==== C
+
+    === Embedded Software Engineer\
+    _Ametros Solutions LLC_\
+    #term[Jul 2015 --- Sep 2016][Ulaanbaatar, MNG]
+
+    - Developed firmware drivers for home automation devices (light-switch, intrusion and air quality sensors).
+    - Contributed developing wireless data transmission between devices.  
+
+    ==== .NET C\#, C
 
     == Education
 
