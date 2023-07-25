@@ -1,4 +1,4 @@
-#import "alta-typst.typ": alta, term, skill
+#import "alta-typst.typ": alta, term, skill, project
 
 #alta(
   name: "Enkhdavaa Batlkhagva",
@@ -16,9 +16,9 @@
     _ICT Netherlands B.V._\
     #term[Jan 2021 --- Present][Eindhoven, NL]
 
-    - Designed and developed 3D virtual hardware simulator for testing the control software of a factory.
     - Created an infrastructure strategy for using Model-Based-Testing at Thermo Fisher Scientific.
-    - Created state transition models for different subsystems for Thermo Fisher Scientific.
+    - Created state transition models for testing various subsystems of the TEM microscope at Thermo Fisher Scientific.
+    - Designed and developed 3D virtual hardware simulator for testing the control software of a factory at ICT Group.
 
     ==== .NET C\#, Unity 3D, C++ 
 
@@ -55,64 +55,84 @@
 
     ==== .NET C\#, C
 
+    \
+
     == Education
 
-    === Higher \
-    _University Name_\
-    #term[Sep 2019 --- Jul 2023][Location, UK]
+    === Engineering Doctorate (EngD) in Software Technology \
+    _Eindhoven University of Technology_\
+    #term[Oct 2018 --- Oct 2020][Eindhoven, NL]
 
-    B.Sc. Computer Science with Year in Industry. #lorem(10)
+    === BSc Electronics Engineering Technology \
+    _Mongolian University Of Science and Technology_\
+    #term[Aug 2011 --- Jul 2015][Ulaanbaatar, MNG]
 
-    === A-Levels \
-    _Place Grammar School_\
-    #term[Sep 2017 --- Aug 2019][Place, UK]
-
-    #lorem(10)
-
-    == Interests
-
-    - Walks on the beach
-    - #lorem(8)
-    - #lorem(6)
-    - #lorem(4)
-    - #lorem(12)
+    == Hobby
+    - Bouldering, Improvization, Running
+    - Playing guitar, sketching
+    - Game development
   ],
   [
     == Projects
 
-    ==== Some project
+    === Model Based Testing (MBT) \
+    _Thermo Fisher Scientific_\
+    #project[Oct 2021 --- Present][Eindhoven, NL] \
+    - Developed state transition models for random test generation
+    - Created a testing workflow for development process
+    - Developed adapters for CI by connecting SUT with MBT tool
+    - Created documentations and presentations for users
+    ==== Axini, .NET C\#, C++, GIT, Jenkins, Shell scripting
 
-    #lorem(30)
+    === Center Of Excellence (COE) \
+    _ICT Netherlands B.V._\
+    #project[Jan 2021 --- Oct 2022][Eindhoven, NL] \
+    - Designed and developed a virtual 3D factory simulator to replace hardware testing dependency
+    - Developed HAL interface for the simulator (DT) for higher abstraction layer software
+    - Created CI & CD for the simulator (DT)
+    ==== Unity3D, OPC-UA, .NET C\#, GIT, Docker, Bamboo CI
 
-    ==== Project with a longer name
+    === Virtual Hardware Simulator for Transmission Electron Microscope (EngD) \
+    _Thermo Fisher Scientific_\
+    #project[Jan 2020 --- Oct 2020][Eindhoven, NL] \
+    - Deisgned and implemented a 3D virtual hardware simulator for firmware and software testing so that testing is not dependent on real hardware.
 
-    #lorem(20)
+    ==== Unity3D, .NET C\#, GIT, Matlab, Docker
 
-    ==== Employee Appraisal System
+    === Dependency Management and Scope Control for HMI products (EngD) \
+    _Thermo Fisher Scientific_\
+    #project[Sep 2019 --- Dec 2019][Eindhoven, NL] \
 
-    - #lorem(15)
-    - #lorem(10)
-    - #lorem(20)
+    *Goal:* Codeveloped a domain-specific language and a live-code dependency checker to detect software architechture violation. \
+    *Role:* Software engineer co-developing a live dependency checker \
+    ==== Roslyn, .NET C\#
 
-    ==== Hackathons
+    === Designing Smart Landing System for Agricultural Drones (EngD) \
+    _AgroTech_\
+    #project[May 2019 --- Jul 2019][Eindhoven, NL] \
 
-    / Hack1: #lorem(20)
-    / TwoHackTwo: #lorem(15)
+    *Goal:* Design and implement the drone control software to save time of field analytics \
+    *Role:* CI engineer and software engineer, responsible for proposing design choices and co-developing the drone control \
 
-    ==== Project 4
+    ==== Python, DroneKit
 
-    - #lorem(30)
-    - #lorem(10)
+    === Face AI for Condition Monitoring (EngD) \
+    _Philips Healthcare_\
+    #project[Jan 2019 --- Apr 2019][Eindhoven, NL] \
 
-    ==== Project Five
+    *Goal:* Add new features to the existing remote consultation system using AI services (Microsoft face AI, Amazon Rekognition) \
+    *Role:* Software developer/Configuration manager responsible for co-developing back-end services using C\# and implementing a CI pipeline \
 
-    - #lorem(23)
+    ==== Microsoft Face AI, Amazon rekognition, .NET C\#
 
     == Skills
 
-    #skill("Go", 5)
-    #skill("TypeScript", 3)
-    #skill("Git", 1)
-    #skill("Typst", 1)
-  ],
+    #skill("C#", 5)
+    #skill("Agile Scrum", 5)
+    #skill("Git", 4)
+    #skill("C++", 3)
+    #skill("JavaScript and TypeScript", 2)
+    #skill("Python", 3)
+
+  ]
 )

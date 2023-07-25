@@ -31,6 +31,10 @@
   text(9pt)[#icon("calendar") #period #h(1fr) #icon("location") #location]
 }
 
+#let project(period, location) = {
+  text(9pt)[#icon("calendar") #period #h(1fr) #icon("location") #location]
+}
+
 #let max_rating = 5
 #let skill(name, rating) = {
   let done = false
