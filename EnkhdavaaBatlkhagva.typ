@@ -1,14 +1,25 @@
-#import "alta-typst.typ": alta, term, skill, project
+#import "alta-typst.typ": alta, term, skill, project, findMe
 
 #alta(
   name: "Enkhdavaa Batlkhagva",
-  links: (
-    (name: "email", link: "mailto:batlkhagva.e@gmail.com"),
-    (name: "website", link: "https://dave.bat.io/", display: "dave.bat.io"),
-    (name: "github", link: "https://github.com/enkhdavaa", display: "@enkhdavaa"),
-    (name: "linkedin", link: "https://www.linkedin.com/in/enkhdavaa-batlkhagva/", display: "Enkhdavaa Batlkhagva"),
-  ),
-  tagline: [I have five years of experience in software development. In this period, I gained in-depth knowledge in scrum/agile, software design, digital twin, and model based testing. Moreover, I consistently improves my technical skills in the area of web and game development, and machine learning.],
+  grid(
+      columns: (0.10fr, 0.8fr),
+      gutter: 10pt,
+      image("enkhdavaa.jpg", width: 100%),
+
+      [ 
+        #findMe(
+            (
+                (name: "email", link: "mailto:batlkhagva.e@gmail.com"),
+                (name: "website", link: "https://dave.bat.io/", display: "dave.bat.io"),
+                (name: "github", link: "https://github.com/enkhdavaa", display: "@enkhdavaa"),
+                (name: "linkedin", link: "https://www.linkedin.com/in/enkhdavaa-batlkhagva/", display: "Enkhdavaa Batlkhagva") 
+            )
+        )
+        I have five years of experience in software development. In this period, I gained in-depth knowledge in scrum/agile, software design, digital twin, and model based testing. Moreover, I consistently improves my technical skills in the area of web and game development, and machine learning.
+    ],
+  )
+  ,
   [
     == Experience
 

@@ -72,8 +72,7 @@
 
 #let alta(
   name: "",
-  links: (),
-  tagline: [],
+  tagline,
   left,
   right,
 ) = {
@@ -106,7 +105,7 @@
 
   [= #name]
 
-  findMe(links)
+//   findMe(links)
 
   tagline
 
