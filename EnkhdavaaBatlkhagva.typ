@@ -11,7 +11,7 @@
         #findMe(
             (
                 (name: "email", link: "mailto:batlkhagva.e@gmail.com"),
-                (name: "website", link: "https://dave.bat.io/", display: "dave.bat.io"),
+                // (name: "website", link: "https://dave.bat.io/", display: "dave.bat.io"),
                 (name: "github", link: "https://github.com/enkhdavaa", display: "@enkhdavaa"),
                 (name: "linkedin", link: "https://www.linkedin.com/in/enkhdavaa-batlkhagva/", display: "Enkhdavaa Batlkhagva") 
             )
@@ -66,7 +66,6 @@
 
     ==== .NET C\#, C
 
-    \
 
     == Education
 
@@ -77,6 +76,14 @@
     === BSc Electronics Engineering Technology \
     _Mongolian University Of Science and Technology_\
     #term[Aug 2011 --- Jul 2015][Ulaanbaatar, MNG]
+
+    == Skills
+    #skill("C#", 5)
+    #skill("Agile Scrum", 5)
+    #skill("Git", 4)
+    #skill("C++", 3)
+    #skill("JavaScript and TypeScript", 2)
+    #skill("Python", 3)
 
     == Hobby
     - Bouldering, Improvization, Running
@@ -118,6 +125,16 @@
     *Role:* Software engineer co-developing a live dependency checker \
     ==== Roslyn, .NET C\#
 
+    \
+    \
+    \
+    ==== For more projects next page ...
+    \
+    \
+    \
+
+    == Projects
+
     === Designing Smart Landing System for Agricultural Drones (EngD) \
     _AgroTech_\
     #project[May 2019 --- Jul 2019][Eindhoven, NL] \
@@ -135,15 +152,6 @@
     *Role:* Software developer/Configuration manager responsible for co-developing back-end services using C\# and implementing a CI pipeline \
 
     ==== Microsoft Face AI, Amazon rekognition, .NET C\#
-
-    == Skills
-
-    #skill("C#", 5)
-    #skill("Agile Scrum", 5)
-    #skill("Git", 4)
-    #skill("C++", 3)
-    #skill("JavaScript and TypeScript", 2)
-    #skill("Python", 3)
 
   ]
 )
