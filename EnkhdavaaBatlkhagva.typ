@@ -16,22 +16,32 @@
                 (name: "linkedin", link: "https://www.linkedin.com/in/enkhdavaa-batlkhagva/", display: "Enkhdavaa Batlkhagva") 
             )
         )
-        I have five years of experience in software development. In this period, I gained in-depth knowledge in scrum/agile, software design, digital twin, and model based testing. Moreover, I consistently improves my technical skills in the area of web and game development, and machine learning.
+        I have five years of experience in software development. I gained in-depth knowledge in software development, testing, and review processes and scrum/agile. Currently, I am working as a software developer for Thermo Fisher Scientific.
     ],
   )
   ,
   [
     == Experience
+    === Software Developer \
+    _Thermo Fisher Scientific_\
+    #term[October 2021 --- Present][Eindhoven, NL]
+
+    - Created a development process for Model-Based-Testing.
+    - Created models for testing various subsystems.
+    - Created C\# and C++ adapters to connect different systems.
+
+    ==== .NET C\#, C++ 
 
     === Software Designer \
     _ICT Netherlands B.V._\
     #term[Jan 2021 --- Present][Eindhoven, NL]
 
-    - Created an infrastructure strategy for using Model-Based-Testing at Thermo Fisher Scientific.
-    - Created state transition models for testing various subsystems of the TEM microscope at Thermo Fisher Scientific.
-    - Designed and developed 3D virtual hardware simulator for testing the control software of a factory at ICT Group.
+    - Developed an OPC-UA API.
+    - Developed a 3D virtual hardware simulator for testing control software.
+    - Automated build and deployment (CI/CD) for the simulator.
+    - Feature improvements on Hololense projects. 
 
-    ==== .NET C\#, Unity 3D, C++ 
+    ==== .NET C\#, Unity 3D
 
     === Software Designer Trainee \
     _Thermo Fisher Scientific_\
@@ -82,7 +92,7 @@
     #skill("Agile Scrum", 5)
     #skill("Git", 4)
     #skill("C++", 3)
-    #skill("JavaScript and TypeScript", 2)
+    #skill("JavaScript", 2)
     #skill("Python", 3)
 
     == Hobby
