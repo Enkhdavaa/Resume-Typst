@@ -88,12 +88,12 @@
     #term[Aug 2011 --- Jul 2015][Ulaanbaatar, MNG]
 
     == Skills
-    #skill("C#", 5)
     #skill("Agile Scrum", 5)
     #skill("Git", 4)
+    #skill("C#", 5)
     #skill("C++", 3)
     #skill("JavaScript", 2)
-    #skill("Python", 3)
+    #skill("Python", 2)
 
     == Hobby
     - Bouldering, Improvization, Running
