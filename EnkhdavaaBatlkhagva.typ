@@ -16,7 +16,7 @@
                 (name: "linkedin", link: "https://www.linkedin.com/in/enkhdavaa-batlkhagva/", display: "Enkhdavaa Batlkhagva") 
             )
         )
-        I have five years of experience in software development. I gained in-depth knowledge in software development, testing, and review processes and scrum/agile. Currently, I am working as a software developer for Thermo Fisher Scientific.
+        I am a software engineer with 5 years of experience in developing software applications. I have worked with Thermo Fisher Scientific and ICT Netherlands, where I gained experience working in agile/safe scrum teams. I am proficient in C\# and C++ programming languages and have a keen interest in working with the .NET ecosystem and DevOps.
     ],
   )
   ,
@@ -26,22 +26,23 @@
     _Thermo Fisher Scientific_\
     #term[October 2021 --- Present][Eindhoven, NL]
 
-    - Created a development process for Model-Based-Testing.
-    - Created models for testing various subsystems.
-    - Created C\# and C++ adapters to connect different systems.
+    - Created C\# and C++ adapters to bridge divergent systems.
+    - Integrated Model-Based testing (MBT) with the DevOps infrastucture.
+    - Investigated the tool and created a development process for MBT.
+    - Created state transition models for testing various systems.
 
-    ==== .NET C\#, C++ 
+    ==== .NET C\#, C++, Jenkins, Scripting
 
     === Software Designer \
     _ICT Netherlands B.V._\
     #term[Jan 2021 --- Present][Eindhoven, NL]
 
-    - Developed an OPC-UA API.
+    - Developed an C\# OPC-UA API.
     - Developed a 3D virtual hardware simulator for testing control software.
     - Automated build and deployment (CI/CD) for the simulator.
-    - Feature improvements on Hololense projects. 
+    - UI feature improvements on AR Hololens. 
 
-    ==== .NET C\#, Unity 3D
+    ==== .NET C\#, Docker, Unity 3D
 
     === Software Designer Trainee \
     _Thermo Fisher Scientific_\
@@ -50,42 +51,21 @@
     - Designed and developed a proof of concept for 3D virtual hardware simulator tool. The tool is for testing software using Unity3D game engine. 
     ==== .NET C\#, Unity 3D, Matlab 
 
-    === Embedded Software Engineer \
+    === Software Engineer \
     _Tavan Bogd Management_\
     #term[Mar 2018 --- Sep 2018][Ulaanbaatar, MNG]
 
-    - Contributed to implementing contactlesss payment using wireless technologies (Bluetooth and WIFI).
-    - Created a windows desktop application for exchanged data with Oracle DB. 
+    - Collected requirements for data transfer application.
+    - Developed a Windows Form Application for transfering an excel data to DB.
 
     ==== .NET C\#, C
-
-    === Embedded Software Intern\
-    _Innovation for High Performance Microelectronics LLC_\
-    #term[Jan 2017 --- Mar 2017][Frankfurt (Oder), DE]
-
-    - Implemented firmware drivers for a platform that measures a power consumption with high precision.
-
-    ==== C
-
-    === Embedded Software Engineer\
-    _Ametros Solutions LLC_\
-    #term[Jul 2015 --- Sep 2016][Ulaanbaatar, MNG]
-
-    - Developed firmware drivers for home automation devices (light-switch, intrusion and air quality sensors).
-    - Contributed developing wireless data transmission between devices.  
-
-    ==== .NET C\#, C
-
 
     == Education
 
     === Engineering Doctorate (EngD) in Software Technology \
     _Eindhoven University of Technology_\
     #term[Oct 2018 --- Oct 2020][Eindhoven, NL]
-
-    === BSc Electronics Engineering Technology \
-    _Mongolian University Of Science and Technology_\
-    #term[Aug 2011 --- Jul 2015][Ulaanbaatar, MNG]
+    \
 
     == Skills
     #skill("Agile Scrum", 5)
